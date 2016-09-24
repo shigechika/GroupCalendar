@@ -1,4 +1,4 @@
-# GroupCalender
+# GroupCalendar
 組織カレンダー
 
 ・概要
