@@ -1,13 +1,13 @@
 // シンプル組織カレンダー
 function groupCalendar() {
   // カレンダーリスト
-  var cals = new Array　(
+  var cals = [
     "example.jp_XXXXX@group.calendar.google.com", // 全体行事
     "boss@example.jp",
     "manager@example.jp",
     "staff@example.jp",
     "intern@example.jp"
-    );
+    ];
   // スプレッドシート
   var spreadsheet = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/XXXXX/edit#gid=0");
   var sheets = spreadsheet.getSheets();
